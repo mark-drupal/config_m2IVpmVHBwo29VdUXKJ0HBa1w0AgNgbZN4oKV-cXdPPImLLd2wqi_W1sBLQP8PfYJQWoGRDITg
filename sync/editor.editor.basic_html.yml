@@ -1,0 +1,56 @@
+uuid: ba95ad6c-48b1-4671-a7aa-6f164b863fea
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - ckeditor
+format: basic_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: format
+          items:
+            - Format
+            - Bold
+            - Underline
+            - Italic
+            - Styles
+            - Strike
+            - Superscript
+            - Blockquote
+            - Subscript
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: text-align
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+        -
+          name: bullets
+          items:
+            - BulletedList
+            - NumberedList
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+    font:
+      font_names: ''
+      font_sizes: ''
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

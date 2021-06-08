@@ -1,0 +1,18 @@
+uuid: 2a75fc85-e45e-4002-b932-bfdfefa89f8b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Projects
+type: projects
+description: 'This is a content type to describe the projects that I have worked on.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,20 @@
+uuid: eea8bbbf-8ec1-483e-9454-873e5d96c6bc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view paragraph content body_text'
+  - 'view paragraph content code'
+  - 'view paragraph content image'
+  - 'view paragraph content quotation'

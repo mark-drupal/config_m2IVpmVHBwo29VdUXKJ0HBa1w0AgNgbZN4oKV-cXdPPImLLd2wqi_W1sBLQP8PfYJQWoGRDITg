@@ -1,0 +1,15 @@
+uuid: 3e91443e-a776-4619-bffa-fed221a89603
+langcode: en
+status: true
+dependencies: {  }
+name: blog_view_image
+label: blog-view-image-style-100x100
+effects:
+  4ab26e80-944f-4416-bcdf-3c1f87911fa6:
+    uuid: 4ab26e80-944f-4416-bcdf-3c1f87911fa6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      anchor: center-center

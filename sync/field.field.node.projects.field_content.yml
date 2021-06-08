@@ -1,0 +1,46 @@
+uuid: 5c17e52d-cd0b-475a-81cc-25265e2f9a61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.projects
+    - paragraphs.paragraphs_type.body_text
+    - paragraphs.paragraphs_type.code
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.quotation
+  module:
+    - entity_reference_revisions
+id: node.projects.field_content
+field_name: field_content
+entity_type: node
+bundle: projects
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      body_text: body_text
+      code: code
+      image: image
+      quotation: quotation
+    target_bundles_drag_drop:
+      body_text:
+        enabled: true
+        weight: 5
+      code:
+        enabled: true
+        weight: 6
+      image:
+        enabled: true
+        weight: 7
+      quotation:
+        enabled: true
+        weight: 8
+field_type: entity_reference_revisions

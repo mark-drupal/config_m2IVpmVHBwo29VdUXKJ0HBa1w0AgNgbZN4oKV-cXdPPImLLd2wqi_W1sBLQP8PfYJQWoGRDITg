@@ -1,0 +1,35 @@
+uuid: addf6685-5b9f-47fa-80ff-cf5cb7efebd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large
+    - image.style.medium
+    - image.style.mobile
+  theme:
+    - bootstrap_barrio
+id: responive_blog_post_image
+label: responive-blog-post-image-large
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap_barrio.extra
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: large
+  -
+    breakpoint_id: bootstrap_barrio.large
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: medium
+  -
+    breakpoint_id: bootstrap_barrio.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: mobile
+  -
+    breakpoint_id: bootstrap_barrio.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: mobile
+breakpoint_group: bootstrap_barrio
+fallback_image_style: medium

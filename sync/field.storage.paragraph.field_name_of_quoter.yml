@@ -1,0 +1,21 @@
+uuid: 1dc0ba33-ccaf-4dae-b1e4-4ec33e7791a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_name_of_quoter
+field_name: field_name_of_quoter
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

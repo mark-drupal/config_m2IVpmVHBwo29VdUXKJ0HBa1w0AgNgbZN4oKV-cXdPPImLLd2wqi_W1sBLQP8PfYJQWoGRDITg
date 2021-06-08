@@ -1,0 +1,13 @@
+uuid: 0987e97c-2915-463e-9969-fbcb97333800
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.projects_screenshot
+  theme:
+    - bootstrap_barrio
+id: projects_screenshot
+label: 'Projects screenshot'
+image_style_mappings: {  }
+breakpoint_group: bootstrap_barrio
+fallback_image_style: projects_screenshot

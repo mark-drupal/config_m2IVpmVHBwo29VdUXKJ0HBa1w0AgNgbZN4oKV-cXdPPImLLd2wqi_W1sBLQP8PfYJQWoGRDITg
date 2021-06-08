@@ -1,0 +1,14 @@
+uuid: 1850e92d-1cbf-4499-88c2-833d42c8944a
+name: 'Mark Newton'
+mail: mark.drupal@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/220
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

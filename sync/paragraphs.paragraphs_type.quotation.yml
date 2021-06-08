@@ -1,0 +1,10 @@
+uuid: e513227b-cda2-416c-a02c-37be7065f58d
+langcode: en
+status: true
+dependencies: {  }
+id: quotation
+label: Quotation
+icon_uuid: null
+icon_default: null
+description: 'This is used to produce a quotation from someone or a post somewhere I wish to highlight.  The create thing about this is that it allows it be styled nicely.'
+behavior_plugins: {  }

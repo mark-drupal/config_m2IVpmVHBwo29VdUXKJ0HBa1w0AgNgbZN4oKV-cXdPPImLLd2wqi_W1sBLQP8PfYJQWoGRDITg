@@ -1,0 +1,15 @@
+uuid: f227629f-cc15-425f-b744-f983e4c26365
+langcode: en
+status: true
+dependencies: {  }
+name: mobile
+label: 'mobile 50 x 50'
+effects:
+  e94da2ae-d5e4-4b44-a210-929bf152622f:
+    uuid: e94da2ae-d5e4-4b44-a210-929bf152622f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      anchor: center-center

@@ -1,0 +1,112 @@
+uuid: f2ffd57a-ef40-46fb-b278-e67313a1db0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - custom_barrio
+id: socialmedialinks
+theme: custom_barrio
+region: footer_third
+weight: -5
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: '0'
+  platforms:
+    youtube:
+      value: ''
+      description: ''
+      weight: '-10'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-9'
+    rss:
+      value: ''
+      description: ''
+      weight: '-8'
+    facebook:
+      value: ''
+      description: ''
+      weight: '-7'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-6'
+    linkedin:
+      value: in/mark-ian-newton/
+      description: ''
+      weight: '-5'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-4'
+    twitter:
+      value: Drupalmark
+      description: ''
+      weight: '-3'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-2'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-1'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '0'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '1'
+    github:
+      value: mark-drupal
+      description: ''
+      weight: '2'
+    contact:
+      value: contact
+      description: ''
+      weight: '3'
+    drupal:
+      value: mark_ian_newton
+      description: ''
+      weight: '4'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '5'
+    behance:
+      value: ''
+      description: ''
+      weight: '6'
+    instagram:
+      value: ''
+      description: ''
+      weight: '7'
+    email:
+      value: ''
+      description: ''
+      weight: '8'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '9'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

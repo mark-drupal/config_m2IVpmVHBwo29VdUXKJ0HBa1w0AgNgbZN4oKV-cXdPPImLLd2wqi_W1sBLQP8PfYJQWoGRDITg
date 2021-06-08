@@ -1,0 +1,23 @@
+uuid: e7c093ad-81e8-40c4-9ae1-4ddf208c654e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_to_project
+    - node.type.projects
+  module:
+    - link
+id: node.projects.field_link_to_project
+field_name: field_link_to_project
+entity_type: node
+bundle: projects
+label: 'Link to project'
+description: 'This is link to live project'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

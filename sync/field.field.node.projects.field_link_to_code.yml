@@ -1,0 +1,23 @@
+uuid: 6a243a36-f361-4aa7-a64f-1e8dbf42fcf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_to_code
+    - node.type.projects
+  module:
+    - link
+id: node.projects.field_link_to_code
+field_name: field_link_to_code
+entity_type: node
+bundle: projects
+label: 'Link To Code'
+description: 'Use this to link to the source code - if available'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

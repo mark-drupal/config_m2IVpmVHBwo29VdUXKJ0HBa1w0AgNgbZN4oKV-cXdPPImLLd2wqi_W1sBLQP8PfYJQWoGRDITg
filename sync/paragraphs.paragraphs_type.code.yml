@@ -1,0 +1,10 @@
+uuid: 1e85601b-a883-426d-a467-85c314ae92d8
+langcode: en
+status: true
+dependencies: {  }
+id: code
+label: Code
+icon_uuid: null
+icon_default: null
+description: 'This is to allow styling of code in posts.'
+behavior_plugins: {  }

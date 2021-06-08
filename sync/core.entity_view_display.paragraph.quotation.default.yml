@@ -1,0 +1,29 @@
+uuid: ef8a8def-dc7d-4383-9a23-a7a6f713af0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quotation.field_name_of_quoter
+    - field.field.paragraph.quotation.field_quotation
+    - paragraphs.paragraphs_type.quotation
+id: paragraph.quotation.default
+targetEntityType: paragraph
+bundle: quotation
+mode: default
+content:
+  field_name_of_quoter:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_quotation:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }
