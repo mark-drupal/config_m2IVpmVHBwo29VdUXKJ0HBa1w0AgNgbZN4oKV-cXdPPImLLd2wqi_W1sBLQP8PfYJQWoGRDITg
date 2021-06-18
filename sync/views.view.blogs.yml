@@ -4,8 +4,8 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_image
+    - image.style.blog_view_image
     - image.style.large
-    - image.style.thumbnail
     - node.type.article
   module:
     - colorbox
@@ -203,7 +203,7 @@ display:
           click_sort_column: target_id
           type: colorbox
           settings:
-            colorbox_node_style: thumbnail
+            colorbox_node_style: blog_view_image
             colorbox_node_style_first: ''
             colorbox_image_style: large
             colorbox_gallery: post

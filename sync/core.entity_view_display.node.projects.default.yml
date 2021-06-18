@@ -28,13 +28,13 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 5
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
   field_content:
     type: entity_reference_revisions_entity_view
-    weight: 4
+    weight: 2
     label: hidden
     settings:
       view_mode: default
@@ -42,7 +42,7 @@ content:
     third_party_settings: {  }
     region: content
   field_link_to_code:
-    weight: 1
+    weight: 4
     label: inline
     settings:
       trim_length: 80
@@ -54,7 +54,7 @@ content:
     type: link
     region: content
   field_link_to_project:
-    weight: 2
+    weight: 5
     label: inline
     settings:
       trim_length: 80
@@ -73,7 +73,7 @@ content:
     type: metatag_empty_formatter
     region: content
   field_screenshot:
-    weight: 3
+    weight: 1
     label: above
     settings:
       colorbox_node_style: projects_screenshot
