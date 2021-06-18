@@ -1,0 +1,36 @@
+uuid: eb32e9ce-5bbd-407d-88c6-4d960e66d6cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.responsive_large_lg_9
+    - image.style.responsive_large_md_768
+    - image.style.responsive_large_sm_576
+    - image.style.responsive_large_xl_
+  theme:
+    - bootstrap_barrio
+id: responsive_large
+label: responsive-large
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap_barrio.extra
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: responsive_large_xl_
+  -
+    breakpoint_id: bootstrap_barrio.large
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: responsive_large_lg_9
+  -
+    breakpoint_id: bootstrap_barrio.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: responsive_large_md_768
+  -
+    breakpoint_id: bootstrap_barrio.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: responsive_large_sm_576
+breakpoint_group: bootstrap_barrio
+fallback_image_style: responsive_large_md_768

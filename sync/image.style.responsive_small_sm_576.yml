@@ -1,0 +1,15 @@
+uuid: 9224fde5-5b4c-477c-92ff-2f5c3cbbbcbc
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_small_sm_576
+label: responsive-small-sm<576
+effects:
+  aecf0753-d747-4414-baf6-2a22360888b9:
+    uuid: aecf0753-d747-4414-baf6-2a22360888b9
+    id: image_scale
+    weight: 1
+    data:
+      width: 25
+      height: 25
+      upscale: true

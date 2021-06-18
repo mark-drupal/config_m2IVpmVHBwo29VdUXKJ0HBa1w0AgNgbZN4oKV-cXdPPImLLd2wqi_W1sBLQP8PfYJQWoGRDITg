@@ -1,0 +1,15 @@
+uuid: d539a1f8-f5c2-4f0e-8d68-547d83b7d552
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_thumb_small_756
+label: responsive-thumb-small-<756
+effects:
+  aa2efe49-16cf-4974-a3e0-ea5d8195d11a:
+    uuid: aa2efe49-16cf-4974-a3e0-ea5d8195d11a
+    id: image_scale
+    weight: 1
+    data:
+      width: 10
+      height: 10
+      upscale: false

@@ -1,0 +1,15 @@
+uuid: 4e60ceff-a906-485b-9c47-6ad64b9f5f22
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_medium_md_768
+label: responsive-medium-md<768
+effects:
+  582f9df0-be2b-4b52-baee-9a35ee3aa196:
+    uuid: 582f9df0-be2b-4b52-baee-9a35ee3aa196
+    id: image_scale
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      upscale: true

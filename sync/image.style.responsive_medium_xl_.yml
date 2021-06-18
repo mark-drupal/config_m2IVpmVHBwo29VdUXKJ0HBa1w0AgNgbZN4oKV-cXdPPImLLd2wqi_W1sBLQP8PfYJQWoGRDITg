@@ -1,0 +1,15 @@
+uuid: cf100151-9ac0-4c37-bbe1-a1b434bddb6f
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_medium_xl_
+label: responsive-medium-xl<992
+effects:
+  a8becebb-c4c2-4874-a6aa-c516b147d069:
+    uuid: a8becebb-c4c2-4874-a6aa-c516b147d069
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: 600
+      upscale: true

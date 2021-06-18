@@ -1,0 +1,15 @@
+uuid: aef04b59-bc53-471c-b926-c8c20098d0eb
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_large_xl_
+label: responsive-large-xl<1200
+effects:
+  6cebb244-faff-45e1-868b-4cbd91a3e919:
+    uuid: 6cebb244-faff-45e1-868b-4cbd91a3e919
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: 800
+      upscale: true

@@ -1,0 +1,15 @@
+uuid: be8345de-e502-4317-8346-f63ca1a04033
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_thumbnail_md_76
+label: responsive-thumbnail-md<768
+effects:
+  88bff7c1-e241-4fea-aefd-1be58b4d381a:
+    uuid: 88bff7c1-e241-4fea-aefd-1be58b4d381a
+    id: image_scale
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      upscale: true

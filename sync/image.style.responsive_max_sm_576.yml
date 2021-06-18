@@ -1,0 +1,15 @@
+uuid: 704fbd5c-4da3-4d6b-8647-13d32ef366cb
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_max_sm_576
+label: responsive-max-sm<576
+effects:
+  f3f4e771-e407-43d0-a087-78ec78961c27:
+    uuid: f3f4e771-e407-43d0-a087-78ec78961c27
+    id: image_scale
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      upscale: true

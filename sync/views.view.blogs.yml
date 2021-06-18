@@ -4,12 +4,11 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_image
-    - image.style.blog_view_image
-    - image.style.large
     - node.type.article
+    - responsive_image.styles.responsive_small
   module:
-    - colorbox
     - node
+    - responsive_image
     - user
 id: blogs
 label: Blogs
@@ -69,16 +68,11 @@ display:
             previous: ‹‹
             next: ››
       style:
-        type: grid
+        type: default
         options:
           grouping: {  }
-          columns: 1
-          automatic_width: true
-          alignment: horizontal
-          col_class_default: true
-          col_class_custom: blog-view-columns
-          row_class_default: true
-          row_class_custom: ''
+          row_class: 'blog-view-columns row-sm-12 row-md-4 projects-view-column dflex flex-column justify-content-center align-items-center flex-shrin'
+          default_row_class: true
       row:
         type: fields
         options:
@@ -113,17 +107,17 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 0
+            max_length: 100
             word_boundary: false
             ellipsis: false
             more_link: false
             more_link_text: ''
             more_link_path: ''
             strip_tags: false
-            trim: false
+            trim: true
             preserve_tags: ''
             html: false
-          element_type: h3
+          element_type: h4
           element_class: ''
           element_label_type: ''
           element_label_class: ''
@@ -188,28 +182,23 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
+          element_type: span
           element_class: ''
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
+          element_wrapper_type: '0'
+          element_wrapper_class: 'img-fluid img-circle'
           element_default_classes: true
           empty: ''
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: colorbox
+          type: responsive_image
           settings:
-            colorbox_node_style: blog_view_image
-            colorbox_node_style_first: ''
-            colorbox_image_style: large
-            colorbox_gallery: post
-            colorbox_gallery_custom: ''
-            colorbox_caption: auto
-            colorbox_caption_custom: ''
+            responsive_image_style: responsive_small
+            image_link: content
           group_column: ''
           group_columns: {  }
           group_rows: true

@@ -1,0 +1,15 @@
+uuid: 3dab9689-c36b-45d2-918e-e2d47b098b4c
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_large_md_768
+label: responsive-large-md-<768
+effects:
+  795cce5c-d689-47ba-a408-d127f8279791:
+    uuid: 795cce5c-d689-47ba-a408-d127f8279791
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: 400
+      upscale: true

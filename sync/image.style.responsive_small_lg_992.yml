@@ -1,0 +1,15 @@
+uuid: 693898be-f5b9-4b11-b4a6-b0d3076df9b1
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_small_lg_992
+label: responsive-small-lg-<992
+effects:
+  87b4b8d8-d1a9-43b0-afd6-4e02df342ffa:
+    uuid: 87b4b8d8-d1a9-43b0-afd6-4e02df342ffa
+    id: image_scale
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      upscale: true

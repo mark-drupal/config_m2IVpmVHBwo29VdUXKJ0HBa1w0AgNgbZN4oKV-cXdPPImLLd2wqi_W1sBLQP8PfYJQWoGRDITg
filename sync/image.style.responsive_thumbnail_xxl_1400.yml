@@ -1,0 +1,15 @@
+uuid: 3eb36d26-2749-47db-aca9-52d0ae8f3c07
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_thumbnail_xxl_1400
+label: responsive-thumbnail-xxl<1400
+effects:
+  fc1dcac7-3602-4373-b08e-3fd81cdd40a9:
+    uuid: fc1dcac7-3602-4373-b08e-3fd81cdd40a9
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: 400
+      upscale: true
